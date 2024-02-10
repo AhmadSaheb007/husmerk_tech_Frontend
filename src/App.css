@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+    --cyan-color: #06c7e9
+}
+
+/* Navbar css  starts*/
+.nav-link{
+
+    transition: 1s !important;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    box-shadow: 0 0 20px 10px blueviolet;
+}
+
+/* Navbar css  ends*/
+
+.bg-slider{
+    background: url(./assets/img/shadowNight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner p{
+    font-size: 6em !important;
+}
+
+.banner span{
+    font-size: 1em !important;
+    color: 	white !important;
+}
+
+.span-shadow{
+    text-shadow: 10px 5px 50px 	blueviolet;
+}
+.bg{
+    background: url(./assets/img/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+
+}
