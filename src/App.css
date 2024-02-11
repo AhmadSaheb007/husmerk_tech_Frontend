@@ -34,11 +34,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background: url(./assets/img/shadowNight.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
 }
 
 .banner p{
-    font-size: 6em !important;
+    font-size: 5em !important;
 }
 
 .banner span{
@@ -49,11 +54,31 @@
 .span-shadow{
     text-shadow: 10px 5px 50px 	blueviolet;
 }
+
+.mix-box{
+
+    border: 1px solid black !important;
+    box-shadow: 10px 5px 60px 70px black !important;
+
+}
 .bg{
     background: url(./assets/img/background.avif);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50rem;
+    height: 100rem;
 
 }
+
+/* Service part starts */
+
+.service-box{
+    transition: 1s;
+}
+
+.service-box:hover{
+    background-color: black;
+    box-shadow: 0 0 20px 10px blueviolet;
+}
+/* Service part ends */

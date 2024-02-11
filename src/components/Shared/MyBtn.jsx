@@ -6,7 +6,7 @@ const MyBtn = () => {
     <div>
       <div className="row">
         <div className="col-lg-12">
-        <div class="svg-wrapper m-5">
+        <div class="svg-wrapper">
         <button className="bg-transparent border-0">
         <svg className="" height="60" width="320" xmlns="http://www.w3.org/2000/svg">
         <text x="155" y="27" fill="white" text-anchor="middle" alignment-baseline="central" className="fs-3">Christmas Time!</text>

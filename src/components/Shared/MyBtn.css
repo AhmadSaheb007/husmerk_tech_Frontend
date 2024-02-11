@@ -11,7 +11,7 @@
     stroke-dashoffset: -474;
     stroke-width: 8px;
     fill: transparent;
-    stroke: #19f6e8;
+    stroke: blueviolet;
     border-bottom: 5px solid black;
     transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
   }
@@ -19,6 +19,7 @@
     stroke-width: 2px;
     stroke-dashoffset: 0;
     stroke-dasharray: 760;
+    
   }
 
   .btn-text-aligner{
