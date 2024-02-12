@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./../Shared/Navbar";
 import Banner from "./../Shared/Banner";
 import Services from "../Shared/Services";
+import Footer from "../Shared/Footer";
 
 const Home = () => {
   return (
@@ -33,10 +34,11 @@ const Home = () => {
             <div className="col-lg-5 my-3">
                 <Services serviceTitle = "Graphic Design" serviceDescription = "Make Dynamic and Elegent Graphics for your University, School &  Corporate"/>
             </div>
-
           </div>
         </div>
       </div>
+
+      <Footer/>
     </div>
   );
 };

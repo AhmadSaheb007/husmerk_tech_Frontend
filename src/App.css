@@ -6,7 +6,8 @@
 }
 
 :root{
-    --cyan-color: #06c7e9
+    --cyan-color: #06c7e9;
+    --midnight-blue: #030a25;
 }
 
 /* Navbar css  starts*/
@@ -75,10 +76,38 @@
 
 .service-box{
     transition: 1s;
+    border: 1px solid white;
 }
 
 .service-box:hover{
-    background-color: black;
-    box-shadow: 0 0 20px 10px blueviolet;
+    font-size: 3em !important;
+    background-color: var(--midnight-blue);
+    box-shadow: 0 0 25px 10px blueviolet;
+
 }
 /* Service part ends */
+
+
+/* Footer part starts */
+.footer{
+    background-color: var(--midnight-blue);
+}
+
+.footer a{
+    text-decoration: none !important;
+    transition: 0.5s;
+    
+}
+
+.footer a:hover{
+    background-color: black ;
+    box-shadow: 0 0 25px 10px blueviolet;
+
+}
+/* Footer part ends */
+
+
+/* Media part starts */
+
+
+/* Media part ends */
