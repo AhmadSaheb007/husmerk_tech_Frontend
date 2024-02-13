@@ -68,13 +68,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100rem;
+    height: auto ;
 
 }
 
 /* Service part starts */
 
 .service-box{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
     transition: 1s;
     border: 1px solid white;
 }
