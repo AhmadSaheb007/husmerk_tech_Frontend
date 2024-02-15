@@ -14,7 +14,8 @@ const Footer = () => {
             <div className="footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-12 pt-4 text-center text-light">
+                        <div className="col-lg-12 text-center text-light">
+                            <img src="/src/assets/img/logo_H.png" className='logo p-5' alt="" />
                             <p className='fs-1 fw-medium'>Husmerk_Tech</p>
                         </div>
                     </div>

@@ -5,6 +5,10 @@ import Services from "../Shared/Services";
 import Footer from "../Shared/Footer";
 import ServiceSection from "../Shared/ServiceSection";
 import Plans from './../Shared/Plans';
+import Sliders from "../Shared/Sliders";
+
+
+
 
 const Home = () => {
   return (
@@ -15,7 +19,13 @@ const Home = () => {
       <div className="bg">
         <ServiceSection/>
         <Plans/>
+        <Sliders/>
+
+        
+        
+        
       </div>
+
 
       <Footer/>
     </div>
