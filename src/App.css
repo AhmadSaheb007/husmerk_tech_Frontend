@@ -9,8 +9,8 @@
     --cyan-color: #06c7e9;
     --midnight-blue: #030a25;
     --primary: #6a59ff;
-  --white: #ffffff;
-  --bg: #f5f5f5;
+    --white: #ffffff;
+     --bg: #f5f5f5;
 }
 
 /* Navbar css  starts*/
@@ -142,18 +142,59 @@
 
 /* project part ends */
 
+.sl{
+    display: block;
+    overflow: hidden;
+}
 .carousel-caption{
     display: flex !important;
     justify-content: center !important;
 }
 
 .carousel-inner{
-
     width: 35% !important;
     height: 40rem !important;
     padding-top: 15%;
     display: flex;
-    align-items: center;
-
-    
+    align-items: center;   
 }
+
+/* Contact part starts */
+.accordion-body{
+    background-color: var(--midnight-blue);
+    color: aliceblue;
+}
+
+.accordion-button{
+    transition: 0.5s !important;
+}
+.accordion-button:hover{
+    transform: scale(1.04);
+    background-color: black;
+    box-shadow: 0 0 35px 2px blueviolet !important;
+
+}
+
+.contact-form{
+    color: aliceblue;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+.contact-form:hover{
+    background-color: black;
+    box-shadow: 0 0 35px 2px blueviolet !important;
+}
+
+.form-control{
+    transition: 0.5s !important;
+}
+
+.form-control:hover{
+    transform: scale(1.05);
+}
+
+/* Contact part ends */

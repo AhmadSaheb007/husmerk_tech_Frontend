@@ -1,9 +1,11 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import SectionTitle from './SectionTitle';
 
 const Sliders = () => {
   return (
-    <>
+    <div className="sl">
+      <SectionTitle sectionTitle = "Projects" />
       <div className="row">
         <div className="col-lg-12">
           <div className="">
@@ -85,7 +87,7 @@ const Sliders = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

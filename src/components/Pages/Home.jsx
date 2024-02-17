@@ -6,6 +6,7 @@ import Footer from "../Shared/Footer";
 import ServiceSection from "../Shared/ServiceSection";
 import Plans from './../Shared/Plans';
 import Sliders from "../Shared/Sliders";
+import Contact from './../Shared/Contact';
 
 
 
@@ -20,6 +21,10 @@ const Home = () => {
         <ServiceSection/>
         <Plans/>
         <Sliders/>
+        <Contact 
+        accordionTitle1 = "Why Should you choose us?"
+        accordionTitle2 = "Our Tools and Hosting Services"
+        accordionTitle3 = "Leave it to us, Take a nap" />
 
         
         

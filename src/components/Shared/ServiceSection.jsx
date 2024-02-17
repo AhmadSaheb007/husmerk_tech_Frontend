@@ -1,15 +1,12 @@
 import React from "react";
 import Services from './Services';
+import SectionTitle from './SectionTitle';
 
 const ServiceSection = () => {
   return (
     <div>
       <div className="container">
-        <div className="row ">
-          <div className="col-lg-12 text-center">
-            <p className="fs-1 text-light">Services</p>
-          </div>
-        </div>
+        <SectionTitle sectionTitle = "Services" />
 
         <div className="row d-flex justify-content-center">
           <div className="col-lg-5 my-3">

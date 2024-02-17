@@ -1,15 +1,12 @@
 import React from "react";
 import DetailsCard from "./DetailsCard";
+import SectionTitle from "./SectionTitle";
 
 const Plans = () => {
   return (
     <div>
-      <div className="container">
-        <div className="row pt-5">
-          <div className="col-lg-12 text-center">
-            <p className="fs-1 text-light">Plans</p>
-          </div>
-        </div>
+      <div className="container pt-5">
+        <SectionTitle sectionTitle="Plans" />
         <div className="row">
           <div className="col-lg-4">
             <DetailsCard
