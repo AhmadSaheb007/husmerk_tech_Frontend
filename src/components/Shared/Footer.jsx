@@ -1,7 +1,7 @@
 import React from 'react';
 import Medias from './Medias';
 import Developer from './Developer';
-
+import { FaRegCopyright } from "react-icons/fa";
 const Footer = () => {
     return (
         <div>
@@ -53,11 +53,15 @@ const Footer = () => {
                     </div>        
                 </div>
                 <div className="container">
-                <div className="row d-flex justify-content-center text-center">
-                     <div className="col-lg-12">
+                    <div className="row">
+                        <div className="col-lg-12 d-flex justify-content-center text-center">
+                            <FaRegCopyright className='text-light'/> &nbsp;&nbsp;
+                            <p className='text-light'>
+                                All copyright 2024 Husmerk_Tech. All rights reserved.
+                            </p>
+                        </div>
                         <hr className='text-light' />
                     </div>
-                </div>
                 </div>
                 <Developer/>
             </div>
