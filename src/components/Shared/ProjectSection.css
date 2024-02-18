@@ -1,0 +1,33 @@
+:root{
+    --midnight-blue: #030a25;
+
+}
+.scroll-bg{
+
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+    color: aliceblue;
+
+}
+
+.scroll-div{
+    width: auto;
+    height: 35rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scroll-bg-btn{
+    transition: 0.5s;
+}
+
+.scroll-bg-btn:hover{
+
+    transform: scale(1.1);
+    background-color: var(--midnight-blue)!important;
+    box-shadow: 0 0 35px 2px blueviolet!important;
+
+}

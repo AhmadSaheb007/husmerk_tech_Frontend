@@ -23,7 +23,7 @@ const Footer = () => {
                         <div className="col-lg-8 ">
                             <div className="row d-flex justify-content-between">
                                 <div className="col-lg-1">
-                                    <p className='fs-5'><a href="" className='text-light p-2 rounded-1'>Home</a></p>
+                                    <p className='fs-5'><a href="" className='text-light p-2 rounded-1 '>Home</a></p>
                                 </div>
 
                                 <div className="col-lg-1">

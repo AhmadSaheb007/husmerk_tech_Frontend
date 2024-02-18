@@ -23,6 +23,12 @@
     box-shadow: 0 0 20px 10px blueviolet;
 }
 
+.brand-img{
+
+    left: 6rem;
+    top: 1rem;
+
+}
 /* Navbar css  ends*/
 
 .bg-slider{
@@ -114,6 +120,7 @@
 .logo{
     width: 20rem;
     height: 20rem;
+
 }
 /* Footer part ends */
 
@@ -128,7 +135,7 @@
 
 .project-card{
     background-color: transparent;
-    backdrop-filter: blur(20px);
+    /* backdrop-filter: blur(20px); */
     border-radius: 5px;
     transition: 1s;
     border: 1px solid white;
@@ -140,6 +147,18 @@
 
 }
 
+.project-bg-btn{
+    transition: 0.5s;
+}
+
+.project-bg-btn:hover{
+
+    transform: scale(1.1);
+    background-color: aliceblue!important;
+    color: var(--midnight-blue)!important;
+    box-shadow: 0 0 20px 2px blueviolet!important;
+
+}
 /* project part ends */
 
 .sl{
@@ -198,3 +217,24 @@
 }
 
 /* Contact part ends */
+
+/* Section title part starts */
+  .my-element {
+    
+    backdrop-filter: blur(20px);
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    animation: blink 3s linear alternate infinite;
+  }
+
+
+  @keyframes blink {
+    25% { 
+        box-shadow: 0 0 35px 2px blueviolet;  
+    }
+    50% { border-color: transparent; }
+    75% { box-shadow: 0 0 35px 2px blueviolet; }
+    100% { border-color: transparent; }
+
+  }
+  /** Section title part endss */

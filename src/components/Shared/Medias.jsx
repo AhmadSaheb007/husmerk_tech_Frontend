@@ -6,7 +6,7 @@ const Medias = () => {
     return (
         <div className='media'>
             <div className="container">
-                <div className="row d-flex justify-content-center text-center">
+                <div className="row d-flex justify-content-center text-end">
                     <div className="col-lg-3">
                         <a href=""><FaFacebook className='text-light fs-3' /></a>
                     </div>

@@ -7,6 +7,7 @@ import ServiceSection from "../Shared/ServiceSection";
 import Plans from './../Shared/Plans';
 import Sliders from "../Shared/Sliders";
 import Contact from './../Shared/Contact';
+import ProjectSection from "../Shared/ProjectSection";
 
 
 
@@ -20,7 +21,7 @@ const Home = () => {
       <div className="bg">
         <ServiceSection/>
         <Plans/>
-        <Sliders/>
+        <ProjectSection/>
         <Contact 
         accordionTitle1 = "Why Should you choose us?"
         accordionTitle2 = "Our Tools and Hosting Services"

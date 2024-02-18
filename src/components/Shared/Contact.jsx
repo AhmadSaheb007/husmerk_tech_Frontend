@@ -138,7 +138,7 @@ const Contact = (props) => {
               <div className="row">
                 <div className="col-lg-12">
                 <div className="mb-3">
-                    <MyBtn btnText="Send" />
+                    {/* <MyBtn btnText="Send" /> */}
                 </div>
                 </div>
               </div>
