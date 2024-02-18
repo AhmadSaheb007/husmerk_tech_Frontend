@@ -16,9 +16,29 @@
 .scroll-div{
     width: auto;
     height: 35rem;
+
     overflow: hidden;
-    overflow-y: scroll;
+
 }
+
+.make-full-screen{
+    transition: 1s;
+    width: auto;
+    height: auto;
+}
+/* .make-full-screen{
+    
+    width: auto;
+    animation: fullScreen 1s alternate;
+}
+
+@keyframes fullScreen {
+    0%   {max-height: 50%; transition: 1s;}
+    50%   {max-height: 75%;transition: 1s;}
+    75%   {max-height: 100%; transition: 1s;}
+    100% {height: auto;}
+} */
+
 
 .scroll-bg-btn{
     transition: 0.5s;
