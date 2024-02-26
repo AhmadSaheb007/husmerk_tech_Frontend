@@ -8,7 +8,7 @@ const ServiceSection = () => {
       <div className="container">
         <SectionTitle sectionTitle = "Services" />
 
-        <div className="row d-flex justify-content-center">
+        <div className="row d-flex justify-content-center text-center">
           <div className="col-lg-5 my-3">
             <Services
               serviceTitle="App Development"

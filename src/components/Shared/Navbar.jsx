@@ -57,14 +57,14 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <a class="navbar-brand position-absolute pt-5 brand-img ps-3" href="#">
+        {/* <a class="navbar-brand position-absolute pt-5 brand-img ps-3" href="#">
               <img
                 src="/src/assets/img/logo_H.png"
                 alt=""
                 width="100"
                 height="auto"
               />
-          </a>
+          </a> */}
       </nav>
     </div>
   );
