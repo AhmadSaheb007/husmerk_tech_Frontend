@@ -8,7 +8,7 @@ const Developer = () => {
                 <div className="row">
                     <div className="col-lg-9">
 
-                        <p className='text-light fs-5'>Developed By Shadman Ahmad Abeer</p>
+                        <p className='text-light fs-5 developer-name'>Developed By Shadman Ahmad Abeer</p>
 
                     </div>
                     <div className="col-lg-3">

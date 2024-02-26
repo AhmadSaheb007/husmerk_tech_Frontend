@@ -10,6 +10,12 @@
         height: 15rem;
     }
 
+    .developer-name{
+        font-size: 1em!important;
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -23,6 +29,12 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
+
+    .developer-name{
+        font-size: 1em!important;
+        display: flex;
+        justify-content: center;
+    }
 
 
 
