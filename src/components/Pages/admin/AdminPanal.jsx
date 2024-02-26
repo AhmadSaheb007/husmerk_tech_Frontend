@@ -26,10 +26,17 @@ const AdminPanal = () => {
 
 
                     <div className="col-lg-12 py-5">
-                        <AdminUpdateForm 
-                        title = "Projects" 
-                        titleHolder = "Enter project title"  
-                        titleDiscription = "Enter protect description" />
+                        <p className='fs-1 text-light'>Projects</p>
+                        <input type="text" className="form-control mb-2" placeholder= "Enter project title" />
+                        <input type="text" className="form-control my-2" placeholder=  "Enter protect description" />
+                        <input type="text" className="form-control my-2" placeholder=  "Enter project link" />
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label text-light">Upload Image</label>
+                            <input class="form-control" type="file" id="formFile"/>
+                        </div>
+                        <button className='btn btn-success px-5'> Add </button>
+                        <button className='btn btn-danger m-2 px-5'> Remove </button>
+                        <hr className='text-light' />
                     </div>
 
                     <div className="col-lg-12 py-5">
