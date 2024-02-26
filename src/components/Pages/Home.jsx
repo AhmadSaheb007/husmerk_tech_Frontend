@@ -10,6 +10,7 @@ import AdminPanal from "./admin/AdminPanal";
 import { BrowserRouter } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
+import Blogs from "../Shared/Blogs";
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
           <ServiceSection/>
           <Plans/>
           <ProjectSection/>
+          <Blogs/>
           <Contact 
           accordionTitle1 = "Why Should you choose us?"
           accordionTitle2 = "Our Tools and Hosting Services"

@@ -178,6 +178,15 @@
     align-items: center;   
 }
 
+.blogs{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+    height: 50rem;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    
+}
 /* Contact part starts */
 .accordion-body{
     background-color: var(--midnight-blue);
