@@ -5,7 +5,7 @@ import SectionTitle from "./SectionTitle";
 const Contact = (props) => {
   return (
     <div>
-      <div className="container">
+      <div className="container pt-5">
         <SectionTitle sectionTitle = "Contact" />
         <div className="row py-5">
           <div className="col-lg-6 pb-5">
