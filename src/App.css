@@ -178,15 +178,28 @@
     align-items: center;   
 }
 
-.blogs{
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-    border: 1px solid white;
+.blogs-scroll{
+
     height: 50rem;
     overflow-y: hidden;
     overflow-y: scroll;
-    
+    backdrop-filter: blur(20px);
+
 }
+
+.blogs{
+    background-color: transparent !important;
+    color: aliceblue;
+    border: 1px solid white;
+} 
+
+.blogs-light{
+    background-color: aliceblue !important;
+    color: black !important;
+    border: 1px solid black !important;;
+
+}
+
 /* Contact part starts */
 .accordion-body{
     background-color: var(--midnight-blue);

@@ -11,7 +11,7 @@ const Blog = (props) => {
                 <img
                   src={props.blogImg}
                   alt=""
-                  className="img-responsive w-100 rounded-3"
+                  className="img-responsive w-100 rounded-3 pb-3"
                 />
                 <p>{props.blogDescription}</p>
               </div>
